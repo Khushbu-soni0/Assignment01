@@ -13,6 +13,10 @@ namespace Assignment01
             Console.WriteLine("Please Enter Length Value");
             Console.ReadLine();
 
+            Console.WriteLine("Please Enter Width Value");
+            Console.ReadLine();
+
+
 
         }
     }

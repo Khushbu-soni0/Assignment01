@@ -1,0 +1,10 @@
+D:\Level2\SQA\Assignment01\bin\Debug\Assignment01.exe.config
+D:\Level2\SQA\Assignment01\bin\Debug\Assignment01.exe
+D:\Level2\SQA\Assignment01\bin\Debug\Assignment01.pdb
+D:\Level2\SQA\Assignment01\bin\Debug\nunit.framework.dll
+D:\Level2\SQA\Assignment01\bin\Debug\nunit.framework.pdb
+D:\Level2\SQA\Assignment01\bin\Debug\nunit.framework.xml
+D:\Level2\SQA\Assignment01\obj\Debug\Assignment01.csprojAssemblyReference.cache
+D:\Level2\SQA\Assignment01\obj\Debug\Assignment01.csproj.CopyComplete
+D:\Level2\SQA\Assignment01\obj\Debug\Assignment01.exe
+D:\Level2\SQA\Assignment01\obj\Debug\Assignment01.pdb
