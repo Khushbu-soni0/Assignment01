@@ -17,13 +17,13 @@ namespace Assignment01
             width = 1;
         }
 
-        Rectangle(int length, int width)
+        public Rectangle(int length, int width)
         {
             this.length = length;
             this.width = width;
         }
 
-        public int GetLenght()
+        public int GetLength()
         {
             return length;
         }
@@ -55,5 +55,6 @@ namespace Assignment01
             return length * width;
         }
 
+        
     }
 }
