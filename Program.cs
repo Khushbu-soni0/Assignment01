@@ -13,7 +13,7 @@ namespace Assignment01
 
             int length;
             int width;
-            int newWidth;
+            
             int menu;
             Console.WriteLine("Please Enter Length Value");
             length = int.Parse(Console.ReadLine());
@@ -54,14 +54,17 @@ namespace Assignment01
            
                 if (menu == 1)
                 {
-                    var R1 = new Rectangle(length, width);
+                    Rectangle R1 = new Rectangle(length, width);
                     int c = R1.GetLength();
+                    Console.WriteLine("Your rectangle Length is {0}", c);
                     menu = int.Parse(Console.ReadLine());
                 }
 
                 if (menu == 2)
                 {
-                    var R2 = new Rectangle(length, width);
+                    Console.WriteLine("Enter your new Length value");
+                    length = int.Parse(Console.ReadLine());
+                    Rectangle R2 = new Rectangle(length, width);
                     int b = R2.SetLength(length);
                     Console.WriteLine("You set Length is {0}", b);
                     menu = int.Parse(Console.ReadLine());
@@ -69,7 +72,7 @@ namespace Assignment01
 
                 if (menu == 3)
                 {
-                    var R3 = new Rectangle(length, width);
+                    Rectangle R3 = new Rectangle(length, width);
                     int d = R3.GetWidth();
                     Console.WriteLine("You set your Rectangle Width is {0}", d);
                     menu = int.Parse(Console.ReadLine());
@@ -79,7 +82,7 @@ namespace Assignment01
                 {
                     Console.WriteLine("Enter your new Width value");
                     width = int.Parse(Console.ReadLine());
-                    var R4 = new Rectangle(length, width);
+                    Rectangle R4 = new Rectangle(length, width);
                     int e = R4.SetWidth(width);
                     Console.WriteLine("You change Rectangle width and it's value is {0}", e);
                     menu = int.Parse(Console.ReadLine());
@@ -87,7 +90,7 @@ namespace Assignment01
                 }
                 if (menu == 5)
                 {
-                    var R5 = new Rectangle(length, width);
+                    Rectangle R5 = new Rectangle(length, width);
                     int f = R5.GetPerimeter();
                     Console.WriteLine("Rectangle Perimeter is {0}", f);
                     menu = int.Parse(Console.ReadLine());
@@ -95,8 +98,9 @@ namespace Assignment01
 
                 if (menu == 6)
                 {
-                    var R6 = new Rectangle(length, width);
+                    Rectangle R6 = new Rectangle(length, width);
                     int g = R6.GetArea();
+                    Console.WriteLine("Rectangle are is {0}", g);
                     menu = int.Parse(Console.ReadLine());
                 }
 
